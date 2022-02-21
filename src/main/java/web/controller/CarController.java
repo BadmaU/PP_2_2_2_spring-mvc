@@ -13,7 +13,7 @@ import web.service.CarServiceImpl;
 
 
 @Controller
-@RequestMapping(value = "/table")
+@RequestMapping(value = "/")
 public class CarController {
 
     private final CarServiceImpl carService;
